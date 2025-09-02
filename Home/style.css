@@ -27,6 +27,7 @@ body{
 
 .img.s1{
     width: 100%;
+    box-shadow: 0 4px #000;
 }
 
 .title{
@@ -67,4 +68,18 @@ body{
         background-size: cover;
         min-height: 80vh;
     }
+ }
+
+ .s2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+ }
+
+ .card{
+    background-color: var(--yellow);
+    border-radius: 20px;
+    box-shadow: 0 4px #000;
  }
